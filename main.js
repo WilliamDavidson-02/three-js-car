@@ -53,7 +53,7 @@ controls.minPolarAngle = 0;
 controls.autoRotate = true;
 
 let loader = new GLTFLoader();
-loader.load("scene.gltf", (gltf) => {
+loader.load("/scene.gltf", (gltf) => {
   const car = gltf.scene.children[0];
   car.scale.set(0.5, 0.5, 0.5, 0.5);
 
